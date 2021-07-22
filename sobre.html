@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Cabeca do texto -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Título da Aba do navegador -->
+    <title>Express News</title>
+    <!--Link CSS-->
+    <link rel="stylesheet" href="./css/main.css" class="css" />
+    <!--https://fonts.google.com/specimen/Open+Sans#standard-styles  FONTE GOOGLE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="menu-principal">
+        <!-- menu /> -->
+        <main>
+        <div class="header-1">
+          <div class="logo">
+            <h2>Express News</h2>
+            <!-- <img src="" /> -->
+          </div>
+          <!-- logo /> -->
+          <div class="redes-sociais">
+            <ul>
+            <li><a href="">
+              <img src="./img/FACE.png"/>
+            </a>
+          </li>
+            <li><a href="">
+              <img src="./img/INSTA.png"/>
+            </a>
+          </li>
+              <li><a href="">
+              <img src="./img/LINKEDIN.png"/>
+            </a>
+        </main>
+        <!-- todo conteudo /> -->
+          <!-- Rede social /> -->
+        </div>
+        <!-- header-1 /> -->
+      </header>
+      <!-- cabecalho /> -->
+   <main class="col-1000 menu-urls"><!--coluna 100% da tela-->
+     <div class="header-2"><!-- MENU /> -->
+       <div class="menu">
+         <ul>
+           <li><a href="index.html"> Home</a></li>
+           <li><a href="sobre.html"> Sobre</a></li>
+           <li><a href="contato.html"> Contato </a></li>
+           <li><a href="saiba.html"> Saiba Mais </a></li>
+         </ul>
+       </div>
+     </div>
+     <div class="busca"><!-- Campo de busca /> -->
+      <input placeholder="Buscar" type="text">
+    </div>
+   </main><!-- menu do site /> -->
+  
+   <header class=" usuario">
+     <h1> Conheça nossa equipe</h1>
+    </header>
+    <!--Membro da equipe 1-->
+   <main class="sobre">
+    <!--Escrever texto-->
+    <div class="coluna-menor">
+        <div class="voce">
+            <h2>Membro</h2>
+            <div class="linha"></div>
+             <!--1 Experiencia-->
+          <li>
+              <a href="https://www.linkedin.com/in/edmilsonribeiro1"><img  href=""
+                src="./img/LINKEDIN.png"/> </a></li>
+              <div class="conteudo">
+                <h3><b>Edmilson Ribeiro</b> Desenvolvedor e contador</h3>
+             </div>
+            </li>
+         
+        </div>
+      <!--Experiencias-->
+      <div class="experiencias">
+        <h2>Experiências profissionais</h2>
+        <div class="linha"></div>
+        <!-- <ol>Lista ordenada 1,2,3</ol> -->
+        <ul>
+          <!--Lista com pontos-->
+          <!--1 Experiencia-->
+          <li>
+            <img
+              src="data:image/png;base64,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"
+            />
+            <div class="conteudo">
+              <h3><b>Assistente de infraestrutura</b> IEPTBBA</h3>
+              <p class="periodo t60">De Março de 2019 - atual</p>
+            </div>
+          </li>
+          <!--2 Experiencia-->
+          <li>
+            <img
+              src="https://i1.sndcdn.com/avatars-000404607072-cm4asn-t500x500.jpg"
+            />
+            <div class="conteudo">
+              <h3><b>Auxiliar de Operações</b> ATENTOBR</h3>
+              <p class="periodo t60">De Dezembro de 2011 a Abril de 2019</p>
+            </div>
+          </li>
+           <!--2 Experiencia-->
+           <li>
+              <img
+                src="./img/IDEIA.png"
+              />
+              <div class="conteudo">
+                <h3><b>Ditetor Administrativo- Financeiro</b> NexusJR</h3>
+                <p class="periodo t60">De Fevereiro de 2018 a Fevereiro de 2019</p>
+              </div>
+            </li>
+      <!--Formação-->
+      <div class="formacao">
+        <h2>Formação</h2>
+        <div class="linha"></div>
+        <!-- <ol>Lista ordenada 1,2,3</ol> -->
+        <ul>
+          <!--Lista com pontos-->
+          <!--1 Formação-->
+          <li>
+            <img
+              src="data:image/png;base64,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"
+            />
+            <div class="conteudo">
+              <h3><b>Ciência da Computação</b> UNIRUY</h3>
+              <p class="periodo t60">De Fevereiro de 2018 a Dezembro de 2022</p>
+            </div>
+          </li>
+          <!--2 Formação-->
+          <li>
+            <img
+              src="data:image/jpeg;base64,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"
+            />
+            <div class="conteudo">
+              <h3><b>Ciências Contábeis</b> Faculdade Castro Alves</h3>
+              <p class="periodo t60">Formado 2014</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+     <!--3 Formação-->
+          <li>
+            <img
+              src="https://www.ccaa.com.br/wp-content/uploads/2017/02/Logo-Flat-Sem-Sombra.png"
+            />
+            <div class="conteudo">
+              <h3><b>Inglês</b> CCAA</h3>
+              <p class="periodo t60">Trancado'</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="coluna-maior">
+             <h2>Habilidades</h2>
+      <div class="habilidades">
+        <!--FRONT-->
+        <div class="habilidade">
+          <h3>Front</h3>
+          <ul>
+            <!--HTML-->
+            <li>
+              <p>HTML</p>
+              <div class="progresso">
+                <div class="barra"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+              </div>
+            </li>
+            <!--CSS-->
+            <li>
+              <p>CSS</p>
+              <div class="progresso">
+                <div class="barra"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+              </div>
+            </li>
+            <!--Java-->
+            <li>
+              <p>Java</p>
+              <div class="progresso">
+                <div class="barra"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+              </div>
+            </li>
+            <!--PHP-->
+            <li>
+              <p>PHP</p>
+              <div class="progresso">
+                <div class="barra"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!--BACK-END-->
+        <div class="habilidade">
+          <h3>Back</h3>
+          <ul>
+            <!--Node.js-->
+            <li>
+              <p>Node.js</p>
+              <div class="progresso">
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+              </div>
+            </li>
+            <!--POSTGRESQL-->
+            <li>
+              <p>MYSQL</p>
+              <div class="progresso">
+                <div class="barra "></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+              </div>
+            </li>
+            <!--JWT-->
+            <li>
+              <p>JWT</p>
+              <div class="progresso">
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+              </div>
+            </li>
+            <!--REST-->
+            <li>
+              <p>REST</p>
+              <div class="progresso">
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!--SOFT SKILS-->
+        <div class="habilidade">
+          <h3>Soft Skills</h3>
+          <ul>
+            <!--Comunicação-->
+            <li>
+              <p>Comunicação</p>
+              <div class="progresso">
+                <div class="barra"></div>
+                <div class="barra"></div>
+                <div class="barra "></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+              </div>
+            </li>
+            <!--Trabalho em equipe-->
+            <li>
+              <p>Trabalho em equipe</p>
+              <div class="progresso">
+                <div class="barra"></div>
+                <div class="barra"></div>
+                <div class="barra "></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+              </div>
+            </li>
+            <!--gerenciamento de tempo-->
+            <li>
+              <p>Gerenciamento de tempo</p>
+              <div class="progresso">
+                <div class="barra"></div>
+                <div class="barra"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+              </div>
+            </li>
+            <!--gestao de conflitos-->
+            <li>
+              <p>Gestão de conflitos</p>
+              <div class="progresso">
+                <div class="barra"></div>
+                <div class="barra "></div>
+                <div class="barra "></div>
+                <div class="barra incompleto"></div>
+                <div class="barra incompleto"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+   
+    </main>
+    <div class="divisao"></div>
+    <!--Membro da equipe 2-->
+    <main class="sobre">
+      <!--Escrever texto-->
+      <div class="coluna-menor">
+          <div class="voce">
+              <h2>Membro</h2>
+              <div class="linha"></div>
+               <!--1 Experiencia-->
+            <li>
+                <a href="https://www.linkedin.com/in/rafael-corr%C3%AAa-b297a1158/"><img  href=""
+                  src="./img/LINKEDIN.png"/> </a></li>
+                <div class="conteudo">
+                  <h3><b>Rafael Lemos</b></h3>
+               </div>
+              </li>
+           
+          </div>
+        <!--Experiencias-->
+        <div class="experiencias">
+          <h2>Experiências profissionais</h2>
+          <div class="linha"></div>
+          <!-- <ol>Lista ordenada 1,2,3</ol> -->
+          <ul>
+            <!--Lista com pontos-->
+            <!--1 Experiencia-->
+            <li>
+              <img
+                src="./img/IDEIA.png"
+              />
+              <div class="conteudo">
+                <h3><b>Freelancer </b> FS Softwares Freelance</h3>
+                <p class="periodo t60">De Novembro de 2018 a Novembro de 2019</p>
+              </div>
+            </li>
+            <!--2 Experiencia-->
+            <li>
+              <img
+                src="./img/IDEIA.png"
+              />
+              <div class="conteudo">
+                <h3><a href="https://rafaaelcorrea.github.io/Black-friday-Page/"><b>Projeto 1</b></a></h3>
+                <h3><a href="https://rafaaelcorrea.github.io/CineFlix/"><b>Projeto 2</b></a></h3>
+                <h3><a href="https://rafaaelcorrea.github.io/F-Imobiliario/"><b>Projeto 3</b></a></h3>
+                <p class="periodo t60"></p>
+              </div>
+            </li>
+            <!--3 Experiencia-->
+            <li>
+              <img
+                src="./img/IDEIA.png"
+              />
+              <div class="conteudo">
+                <h3><b>BREVE NOVIDADES - AGUARDE</b></a></h3>
+                <h3><a href=""><b></b></a></h3>
+                <p class="periodo t60"><a href"></a></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      
+        <!--Formação-->
+        <div class="formacao">
+          <h2>Formação</h2>
+          <div class="linha"></div>
+          <!-- <ol>Lista ordenada 1,2,3</ol> -->
+          <ul>
+            <!--Lista com pontos-->
+            <!--1 Formação-->
+            <li>
+              <img
+                src="./img/IDEIA.png"
+              />
+              <div class="conteudo">
+                <h3><b>Análise e Desenvolvomentp de sistema</b> Estacio de Sá </h3>
+                <p class="periodo t60">Formado em Julho/2020</p>
+              </div>
+            </li>
+            <!--2 Formação-->
+            <li>
+              <img
+                src="./img/IDEIA.png"
+              />
+              <div class="conteudo">
+                <h3><b>BREVE NOVIDADES - AGUARDE</b></h3>
+                <p class="periodo t60"></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="coluna-maior">
+               <h2>Habilidades</h2>
+        <div class="habilidades">
+          <!--FRONT-->
+          <div class="habilidade">
+            <h3>Front</h3>
+            <ul>
+              <!--HTML-->
+              <li>
+                <p>HTML5</p>
+                <div class="progresso">
+                  <div class="barra"></div>
+                  <div class="barra"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                </div>
+              </li>
+              <!--CSS-->
+              <li>
+                <p>CSS 3</p>
+                <div class="progresso">
+                  <div class="barra"></div>
+                  <div class="barra"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                </div>
+              </li>
+              <!--Java-->
+              <li>
+                <p>JS</p>
+                <div class="progresso">
+                  <div class="barra"></div>
+                  <div class="barra"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                </div>
+              </li>
+              <!--PHP-->
+              <li>
+                <p>C++</p>
+                <div class="progresso">
+                  <div class="barra"></div>
+                  <div class="barra "></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!--BACK-END-->
+          <div class="habilidade">
+            <h3>Back</h3>
+            <ul>
+              <!--Node.js-->
+              <li>
+                <p>Node.js</p>
+                <div class="progresso">
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                </div>
+              </li>
+              <!--POSTGRESQL-->
+              <li>
+                <p>SQL</p>
+                <div class="progresso">
+                  <div class="barra"></div>
+                  <div class="barra"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                </div>
+              </li>
+              <!--JWT-->
+              <li>
+                <p>JWT</p>
+                <div class="progresso">
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                </div>
+              </li>
+              <!--REST-->
+              <li>
+                <p>REST</p>
+                <div class="progresso">
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!--SOFT SKILS-->
+          <div class="habilidade">
+            <h3>Soft Skills</h3>
+            <ul>
+              <!--Comunicação-->
+              <li>
+                <p>Comunicação</p>
+                <div class="progresso">
+                  <div class="barra"></div>
+                  <div class="barra"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                </div>
+              </li>
+              <!--Trabalho em equipe-->
+              <li>
+                <p>Trabalho em equipe</p>
+                <div class="progresso">
+                  <div class="barra"></div>
+                  <div class="barra"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                </div>
+              </li>
+              <!--gerenciamento de tempo-->
+              <li>
+                <p>Gerenciamento de tempo</p>
+                <div class="progresso">
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                </div>
+              </li>
+              <!--gestao de conflitos-->
+              <li>
+                <p>Gestão de conflitos</p>
+                <div class="progresso">
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                  <div class="barra incompleto"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+     
+      </main>
+      <div class="divisao"></div>
+      <!--Membro da equipe 3-->
+      <main class="sobre">
+        <!--Escrever texto-->
+        <div class="coluna-menor">
+            <div class="voce">
+                <h2>Membro</h2>
+                <div class="linha"></div>
+                 <!--1 Experiencia-->
+              <li>
+                 <a href="https://www.linkedin.com/in/fauzer-caldana-pcd"><img  href=""
+                  src="./img/LINKEDIN.png"/> </a></li>
+                  
+                  <div class="conteudo">
+                    <h3><b>Fauzer Caldana</b> </h3>
+                 </div>
+                </li>
+             
+            </div>
+          <!--Experiencias-->
+          <div class="experiencias">
+            <h2>Experiências profissionais</h2>
+            <div class="linha"></div>
+            <!-- <ol>Lista ordenada 1,2,3</ol> -->
+            <ul>
+              <!--Lista com pontos-->
+              <!--1 Experiencia-->
+              <li>
+                <img
+                  src="data:image/png;base64,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"
+                />
+                <div class="conteudo">
+                  <h3><b>Assistente Administrativo de Agência / Caixa Bancário</b> SICRED</h3>
+                  <p class="periodo t60">De Setembro de 2019 - Atual</p>
+                </div>
+              </li>
+              <!--2 Experiencia-->
+              <li>
+                <img
+                  src="./img/IDEIA.png"
+                />
+                <div class="conteudo">
+                  <h3><b>BREVE NOVIDADES - AGUARDE </b> </h3>
+                  <p class="periodo t60"></p>
+                </div>
+              </li>
+              <!--3 Experiencia-->
+              <li>
+                <img
+                  src="./img/IDEIA.png"
+                />
+                <div class="conteudo">
+                  <h3><b>BREVE NOVIDADES - AGUARDE</b></h3>
+                  <p class="periodo t60"></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!--Formação-->
+          <div class="formacao">
+            <h2>Formação</h2>
+            <div class="linha"></div>
+            <!-- <ol>Lista ordenada 1,2,3</ol> -->
+            <ul>
+              <!--Lista com pontos-->
+              <!--1 Formação-->
+              <li>
+                <img
+                  src="./img/IDEIA.png"
+                />
+                <div class="conteudo">
+                  <h3><b> Direito</b> Faculdades Anhanguera</h3>
+                  <p class="periodo t60">De Março de 2018 a Março de 2023</p>
+                </div>
+              </li>
+              <!--2 Formação-->
+              <li>
+                <img
+                  src="./img/IDEIA.png"
+                />
+                <div class="conteudo">
+                  <h3><b>BREVE NOVIDADES - AGUARDE</b></h3>
+                  <p class="periodo t60"></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="coluna-maior">
+                 <h2>Habilidades</h2>
+          <div class="habilidades">
+            <!--FRONT-->
+            <div class="habilidade">
+              <h3>Front</h3>
+              <ul>
+                <!--HTML-->
+                <li>
+                  <p>HTML</p>
+                  <div class="progresso">
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--CSS-->
+                <li>
+                  <p>CSS</p>
+                  <div class="progresso">
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--Java-->
+                <li>
+                  <p>Java</p>
+                  <div class="progresso">
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--PHP-->
+                <li>
+                  <p>PHP</p>
+                  <div class="progresso">
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!--BACK-END-->
+            <div class="habilidade">
+              <h3>Back</h3>
+              <ul>
+                <!--Node.js-->
+                <li>
+                  <p>Node.js</p>
+                  <div class="progresso">
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--POSTGRESQL-->
+                <li>
+                  <p>PostgreSQL</p>
+                  <div class="progresso">
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--JWT-->
+                <li>
+                  <p>JWT</p>
+                  <div class="progresso">
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--REST-->
+                <li>
+                  <p>REST</p>
+                  <div class="progresso">
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!--SOFT SKILS-->
+            <div class="habilidade">
+              <h3>Soft Skills</h3>
+              <ul>
+                <!--Comunicação-->
+                <li>
+                  <p>Comunicação</p>
+                  <div class="progresso">
+                    <div class="barra "></div>
+                    <div class="barra "></div>
+                    <div class="barra "></div>
+                    <div class="barra "></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--Trabalho em equipe-->
+                <li>
+                  <p>Trabalho em equipe</p>
+                  <div class="progresso">
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                    <div class="barra "></div>
+                    <div class="barra "></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--gerenciamento de tempo-->
+                <li>
+                  <p>Gerenciamento de tempo</p>
+                  <div class="progresso">
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--gestao de conflitos-->
+                <li>
+                  <p>Gestão de conflitos</p>
+                  <div class="progresso">
+                    <div class="barra"></div>
+                    <div class="barra "></div>
+                    <div class="barra "></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+       </main>
+       <div class="divisao"></div>
+       <!--Membro da equipe 4-->
+       <main class="sobre">
+        <!--Escrever texto-->
+        <div class="coluna-menor">
+            <div class="voce">
+                <h2>Membro</h2>
+                <div class="linha"></div>
+                 <!--1 Experiencia-->
+              <li>
+                  <a href="https://www.linkedin.com/in/erika-fonseca-2597b81b4"><img  href=""
+                    src="./img/LINKEDIN.png"/> </a></li>
+                  <div class="conteudo">
+                    <h3><b>Erika Fonseca</b> </h3>
+                 </div>
+                </li>
+             
+            </div>
+          <!--Experiencias-->
+          <div class="experiencias">
+            <h2>Experiências profissionais</h2>
+            <div class="linha"></div>
+            <!-- <ol>Lista ordenada 1,2,3</ol> -->
+            <ul>
+              <!--Lista com pontos-->
+              <!--1 Experiencia-->
+              <li>
+                <img
+                  src="./img/IDEIA.png"
+                />
+                <div class="conteudo">
+                  <h3><b>BREVE NOVIDADES -AGUARDE </b></h3>
+                  <p class="periodo t60"></p>
+                </div>
+              </li>
+              <!--2 Experiencia-->
+              <li>
+                <img
+                  src="./img/IDEIA.png"
+                />
+                <div class="conteudo">
+                  <h3><b>BREVE NOVIDADES -AGUARDE</b> </h3>
+                  <p class="periodo t60"></p>
+                </div>
+              </li>
+              <!--3 Experiencia-->
+              <li>
+                <img
+                  src="./img/IDEIA.png"
+                />
+                <div class="conteudo">
+                  <h3><b>BREVE NOVIDADES -AGUARDE</b></h3>
+                  <p class="periodo t60"></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!--Formação-->
+          <div class="formacao">
+            <h2>Formação</h2>
+            <div class="linha"></div>
+            <!-- <ol>Lista ordenada 1,2,3</ol> -->
+            <ul>
+              <!--Lista com pontos-->
+              <!--1 Formação-->
+              <li>
+                <img
+                  src="./img/IDEIA.png"
+                />
+                <div class="conteudo">
+                  <h3><b>BREVE NOVIDADES -AGUARDE</b></h3>
+                  <p class="periodo t60"></p>
+                </div>
+              </li>
+              <!--2 Formação-->
+              <li>
+                <img
+                  src="./img/IDEIA.png"
+                />
+                <div class="conteudo">
+                  <h3><b>BREVE NOVIDADES -AGUARDE</b> </h3>
+                  <p class="periodo t60"></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="coluna-maior">
+                 <h2>Habilidades</h2>
+          <div class="habilidades">
+            <!--FRONT-->
+            <div class="habilidade">
+              <h3>Front</h3>
+              <ul>
+                <!--HTML-->
+                <li>
+                  <p>HTML</p>
+                  <div class="progresso">
+                    <div class="barra "></div>
+                    <div class="barra "></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--CSS-->
+                <li>
+                  <p>CSS</p>
+                  <div class="progresso">
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--Java-->
+                <li>
+                  <p>Java</p>
+                  <div class="progresso">
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--PHP-->
+                <li>
+                  <p>PHP</p>
+                  <div class="progresso">
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!--BACK-END-->
+            <div class="habilidade">
+              <h3>Back</h3>
+              <ul>
+                <!--Node.js-->
+                <li>
+                  <p>Node.js</p>
+                  <div class="progresso">
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--POSTGRESQL-->
+                <li>
+                  <p>PostgreSQL</p>
+                  <div class="progresso">
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--JWT-->
+                <li>
+                  <p>JWT</p>
+                  <div class="progresso">
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--REST-->
+                <li>
+                  <p>REST</p>
+                  <div class="progresso">
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!--SOFT SKILS-->
+            <div class="habilidade">
+              <h3>Soft Skills</h3>
+              <ul>
+                <!--Comunicação-->
+                <li>
+                  <p>Comunicação</p>
+                  <div class="progresso">
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--Trabalho em equipe-->
+                <li>
+                  <p>Trabalho em equipe</p>
+                  <div class="progresso">
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--gerenciamento de tempo-->
+                <li>
+                  <p>Gerenciamento de tempo</p>
+                  <div class="progresso">
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+                <!--gestao de conflitos-->
+                <li>
+                  <p>Consulto de Acessibilidade</p>
+                  <div class="progresso">
+                    <div class="barra "></div>
+                    <div class="barra "></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                    <div class="barra incompleto"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+       </main>
+       <div class="divisao"></div>
+
+       <footer> <!--Footer = rodapé da página -->
+        <h2>Direitos Reservados- GRUPO 11 AGRADECE A TODOS </h2>
+    </footer>
+  </body>
+</html>

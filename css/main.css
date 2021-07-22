@@ -1,0 +1,306 @@
+/* {
+  border: 2px solid blue;
+}
+*/
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #e5e5e5; /* Funco do body*/
+}
+ul {
+  padding: 0px !important;
+}
+.menu-principal {
+  width: 100%;
+  background-color: #f3f3f3; /* cor do fundo */
+  height: 60px; /* altura */
+}
+main {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+}
+/*cabecalho */
+.logo {
+  float: left;
+  color: black;
+  /* padding: 16px;*/
+  width: 70%;
+}
+.redes-sociais {
+  width: 30%;
+  float: right;
+}
+.redes-sociais ul li {
+  display: inline-block; /*resetar os pontos, tirar os pontos */
+  float: left;
+  list-style: none;
+  margin-left: 5px;
+}
+
+.redes-sociais img {
+  /*ajuste do png da rede social */
+  width: 40px;
+  height: 40px;
+  border: 4px;
+  margin-right: 8px;
+}
+/*barra menu */
+
+.header-2 {
+  background-color: #ffffff;
+  width: 980px;
+  margin: 0 auto;
+}
+.menu-urls {
+  height: 75px;
+  border-bottom: 3px solid black; /*Borda solida do menu */
+}
+.menu ul li:hover {
+  border-bottom: 2px solid white;
+}
+.menu ul li a:hover {
+  /*Efeito no menu */
+  color: black;
+}
+.menu ul li {
+  display: inline-block; /*resetar os pontos, tirar os pontos */
+  color: #8b8b8b;
+  margin-left: 15px; /*Distancia*/
+}
+.menu ul li a {
+  color: white; /*Cor*/
+  text-decoration: none;
+  font-size: 18px; /*Tamanho da fonte do menu*/
+  text-transform: uppercase; /*deixa todas as letras do menu maiuculas*/
+}
+.menu {
+  width: 60%;
+  float: left;
+}
+.busca {
+  margin-top: 10px;
+  text-align: left;
+  width: 40%;
+  float: right;
+}
+.busca input {
+  background-image: url("../img/SEARCH.png");
+  background-repeat: no-repeat; /*Não repetir */
+  background-position: 96%;
+  height: 15px;
+  padding: 7px;
+  width: 190px;
+  margin-top: 5px;
+  border: 1px solid #d6d6d6; /*borda */
+  /*posição da busca */
+}
+.col-1000 {
+  width: 100%;
+  float: left;
+  position: relative;
+  background-color: #c4170c;
+} /*coluna 100% da tela */
+
+/*SOBRE*/
+h1,
+h2,
+h3,
+body,
+p {
+  /* Tirando a margem padrão do título */
+  margin: 0;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-weight: normal;
+}
+h1 span {
+  font-weight: bold;
+}
+h3 {
+  font-family: "Open Sans", serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+}
+.usuario /* Cabecalho*/ {
+  background-color: #e5e5e5;
+  width: 980px;
+  margin: 0 auto;
+}
+.sobre /*borda das colunas*/ {
+  display: flex;
+  padding: 40px 70px;
+}
+/* Classes - o ponto siginifica que está chamando a classe */
+.profissao {
+  font-size: 24px;
+}
+
+.t60 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.dados {
+  /* coloca as informações na mesma linha*/
+  display: inline-block;
+  margin-bottom: 16px;
+}
+/*COLUNA MENOR */
+.coluna-menor {
+  margin-top: 20px;
+  width: 288px;
+}
+/*todas as classes linha */
+.linha {
+  width: 80px; /*largura */
+  border-top: 2px solid;
+  margin-top: 8px;
+}
+/*classe linha dentro da classe experiencia */
+.sobre .linha {
+  border-color: #c4170c;
+}
+.experiencias .linha {
+  border-color: #4200ff;
+}
+.formacao .linha {
+  border-color: #ffc700;
+}
+.coluna-menor img {
+  width: 40px;
+  height: 40px;
+  border: 4px;
+  /*afastar conteudo*/
+  margin-right: 8px;
+}
+.coluna-menor li {
+  display: flex;
+  margin-top: 32px;
+}
+
+.conteudo {
+  display: inline-block;
+}
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+.experiencias {
+  margin-top: 32px;
+}
+.formacao {
+  margin-top: 32px;
+}
+/* COLUNA MAIOR */
+.coluna-maior {
+  margin-left: 24px;
+}
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+}
+.coluna-maior h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+}
+.habilidade {
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 12px;
+  width: 288px;
+}
+.habilidade h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.habilidade p {
+  font-size: 20px;
+}
+/*barra*/
+.progresso {
+  width: 100%;
+  display: flex;
+}
+.barra {
+  width: 20%;
+  margin-top: 8px;
+  height: 4px;
+  background-color: #4200ff;
+}
+.incompleto {
+  opacity: 0.2;
+}
+.habilidade li {
+  margin-top: 16px;
+}
+.habilidade li:first-child {
+  margin-top: 0px;
+}
+
+.divisao {
+  height: 10px;
+  border-bottom: 1px solid #c4170c;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*FIM SOBRE*/
+
+/* ajuste index - conteudo*/
+.noticia {
+  background-color: #ffffff;
+  width: 980px;
+  margin: 0 auto;
+}
+.NH {
+  background-color: rgb(250, 248, 243);
+}
+/*FIM index*/
+
+/*footer*/
+footer {
+  background-color: #c4170c;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+/*contato*/
+nav {
+  background-color: #ffffff;
+  width: 980px;
+  margin: 0 auto;
+}
+.contato_input {
+  margin-top: 10px;
+  text-align: left;
+  width: 40%;
+  float: right;
+  width: 980px;
+}
+
+.contato_input input {
+  background-repeat: no-repeat; /*Não repetir */
+  background-position: 96%;
+  height: 15px;
+  padding: 7px;
+  width: 190px;
+  margin-top: 5px;
+  border: 1px solid #d6d6d6; /*borda */
+  /*posição da busca */
+}
+.saiba {
+  background-color: #ffffff;
+  width: 980px;
+  margin: 0 auto;
+}
